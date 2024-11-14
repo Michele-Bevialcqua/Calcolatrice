@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calc{
+    margin-top: 05vh;
+    position: fixed;
+}
+
+.feedback{
+    color: white;
+    font-size: 4em;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.feedbackSection{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#signFeedback{
+    color: gray;
+    font-size: 2em;
+    float: right;
+}
+
+button{
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-color: #333333;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.otherBtn{
+    background-color: gray;
+}
+
+.calcBtn{
+    background-color: orange;
+}
+
+.rickAstley{
+    color: white;
+    text-decoration: none;
+}
